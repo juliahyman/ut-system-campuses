@@ -1,0 +1,109 @@
+{
+  "storymap": {
+    "language": "en",
+    "map_type": "osm:standard",
+    "map_as_image": false,
+    "calculate_zoom": false,
+    "call_to_action": true,
+    "call_to_action_text": "Follow how the UT System grew, 1794 to 2021",
+    "line_color": "#FF8200",
+    "line_color_inactive": "#58595B",
+    "line_weight": 3,
+    "line_opacity": 0.8,
+    "slides": [
+      {
+        "type": "overview",
+        "date": "",
+        "text": {
+          "headline": "The University of Tennessee System",
+          "text": "<p>The UT System is made up of <strong>five campuses</strong>: Knoxville, Chattanooga, Martin, Pulaski (UT Southern) and the UT Health Science Center in Memphis. It also runs statewide institutes that reach all 95 Tennessee counties.</p><p>In Fall 2025 the system enrolled a record <strong>64,866 students</strong>.</p><p>This map visits each campus <em>in the order it became part of UT</em>, so you can watch the system spread from East Tennessee across the state over more than two centuries.</p>"
+        },
+        "media": {"url": "", "credit": "", "caption": ""},
+        "location": {"line": true}
+      },
+      {
+        "date": "1794",
+        "text": {
+          "headline": "UT Knoxville — the flagship",
+          "text": "<p><strong>Founded:</strong> 1794 as Blount College, two years before Tennessee became a state. It was later renamed East Tennessee College (1807) and East Tennessee University (1840), and became the University of Tennessee in 1879.</p><p><strong>Role:</strong> UT's flagship and land-grant research university, with close ties to nearby Oak Ridge National Laboratory.</p><p><strong>Fall 2025:</strong> 40,421 students, including 32,041 undergraduates. 63% of undergraduates are from Tennessee, and 14% of graduate and professional students are international.</p><p><strong>Mascot:</strong> Smokey, a bluetick coonhound (Volunteers).</p><p class=\"source\">Source: <a href=\"https://irsa.utk.edu/reporting/fact-book/\" target=\"_blank\" rel=\"noopener\">UTK Fact Book</a></p>"
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Ayres_Hall%2C_University_of_Tennessee_at_Knoxville%2C_Fort_Sanders%2C_Knoxville%2C_TN.jpg/1280px-Ayres_Hall%2C_University_of_Tennessee_at_Knoxville%2C_Fort_Sanders%2C_Knoxville%2C_TN.jpg",
+          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Ayres_Hall,_University_of_Tennessee_at_Knoxville,_Fort_Sanders,_Knoxville,_TN.jpg\" target=\"_blank\" rel=\"noopener\">w_lemay / Wikimedia Commons</a>, CC BY-SA 2.0",
+          "caption": "Ayres Hall on \"The Hill,\" the symbol of UT Knoxville"
+        },
+        "location": {"line": true, "lat": 35.9573, "lon": -83.9262, "zoom": 15, "use_custom_marker": false}
+      },
+      {
+        "date": "1911",
+        "text": {
+          "headline": "UT Health Science Center — Memphis",
+          "text": "<p><strong>Came to Memphis:</strong> 1911. UT moved its medical and dental departments from Nashville to Memphis and merged them with local medical schools. The campus was later known as UT Memphis, and took the name UT Health Science Center (UTHSC) in 2000.</p><p><strong>Role:</strong> UT's statewide academic health center, with Colleges of Dentistry, Graduate Health Sciences, Health Professions, Medicine, Nursing and Pharmacy. It is an R1 (very high research activity) institution.</p><p><strong>Fall 2025:</strong> 3,157 students.</p><p><em>Note:</em> UTHSC is a different school from the University of Memphis, which belongs to its own board, not the UT System.</p>"
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Dunn_Dental_Building.jpg/1280px-Dunn_Dental_Building.jpg",
+          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Dunn_Dental_Building.jpg\" target=\"_blank\" rel=\"noopener\">Dclemens1971 / Wikimedia Commons</a>, CC BY 4.0",
+          "caption": "The Dunn Dental Building, home of the UTHSC College of Dentistry"
+        },
+        "location": {"line": true, "lat": 35.1408, "lon": -90.0300, "zoom": 15, "use_custom_marker": false}
+      },
+      {
+        "date": "1927",
+        "text": {
+          "headline": "UT Martin — West Tennessee",
+          "text": "<p><strong>Roots:</strong> In 1900 the Tennessee Baptist Convention opened Hall-Moody Institute on this site. When Hall-Moody closed in 1927, local leaders asked the state to take it over.</p><p><strong>Joined UT:</strong> 1927, as the University of Tennessee Junior College, with 120 students. It became a four-year branch in 1951 and the University of Tennessee at Martin in 1967.</p><p><strong>Role:</strong> The only public university in West Tennessee outside Memphis, with a large agricultural research farm.</p><p><strong>Fall 2025:</strong> 8,096 students.</p><p><strong>Mascot:</strong> Captain Skyhawk (Skyhawks).</p>"
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/UTM_admin_building.jpg",
+          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:UTM_admin_building.jpg\" target=\"_blank\" rel=\"noopener\">Benjamin Hunt / Wikimedia Commons</a>, public domain",
+          "caption": "The administration building at UT Martin"
+        },
+        "location": {"line": true, "lat": 36.3418, "lon": -88.8671, "zoom": 15, "use_custom_marker": false}
+      },
+      {
+        "date": "1969",
+        "text": {
+          "headline": "UT Chattanooga — Southeast Tennessee",
+          "text": "<p><strong>Founded:</strong> 1886 as Chattanooga University, a private, church-affiliated school that later became the University of Chattanooga.</p><p><strong>Joined UT:</strong> 1969, when it merged with Chattanooga City College to form the University of Tennessee at Chattanooga.</p><p><strong>Role:</strong> A public research university with five colleges and more than 150 degree programs and concentrations.</p><p><strong>Fall 2025:</strong> 12,060 students.</p><p><strong>Mascot:</strong> Scrappy the Mocking Bird (Mocs).</p>"
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/The_University_of_Tennessee_at_Chattanooga.jpg/1280px-The_University_of_Tennessee_at_Chattanooga.jpg",
+          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:The_University_of_Tennessee_at_Chattanooga.jpg\" target=\"_blank\" rel=\"noopener\">Harrison Keely / Wikimedia Commons</a>, CC BY 4.0",
+          "caption": "The UT Chattanooga campus"
+        },
+        "location": {"line": true, "lat": 35.0458, "lon": -85.2999, "zoom": 15, "use_custom_marker": false}
+      },
+      {
+        "date": "2021",
+        "text": {
+          "headline": "UT Southern — Pulaski",
+          "text": "<p><strong>Founded:</strong> 1870, and private for more than 150 years, most recently as Martin Methodist College.</p><p><strong>Joined UT:</strong> 2021. It was the first new primary campus in the UT System in more than 50 years. The name \"UT Southern\" reflects its mission to serve the 13 counties of southern Middle Tennessee.</p><p><strong>Fall 2025:</strong> 1,132 students, up 8.2% from the year before.</p><p><strong>Mascot:</strong> the Firehawks.</p>"
+        },
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Martin_Methodist_College.JPG/1280px-Martin_Methodist_College.JPG",
+          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Martin_Methodist_College.JPG\" target=\"_blank\" rel=\"noopener\">Skye Marthaler / Wikimedia Commons</a>, CC BY-SA 3.0",
+          "caption": "The campus in Pulaski when it was still Martin Methodist College"
+        },
+        "location": {"line": true, "lat": 35.2002, "lon": -87.0364, "zoom": 15, "use_custom_marker": false}
+      },
+      {
+        "date": "Statewide",
+        "text": {
+          "headline": "Beyond the five campuses",
+          "text": "<p>The UT System reaches well beyond its campuses:</p><ul><li><strong>UT Space Institute</strong> (shown here, near Tullahoma): a graduate research campus next to the wind tunnels and test facilities of Arnold Air Force Base. It is now part of UT Knoxville.</li><li><strong>UT Institute of Agriculture</strong>: research, the College of Veterinary Medicine, and UT Extension offices in every Tennessee county.</li><li><strong>Institute for Public Service</strong>: training and advice for city and county governments and businesses across the state.</li></ul>"
+        },
+        "media": {"url": "", "credit": "", "caption": ""},
+        "location": {"line": false, "lat": 35.3190, "lon": -86.1010, "zoom": 13, "use_custom_marker": false}
+      },
+      {
+        "date": "",
+        "text": {
+          "headline": "Sources & further reading",
+          "text": "<ul><li><a href=\"https://tennessee.edu/news/2025/09/17/ut-reaches-record-enrollment-preparing-more-graduates-for-tennessee-jobs/\" target=\"_blank\" rel=\"noopener\">UT System: Fall 2025 record enrollment</a> (all enrollment figures)</li><li><a href=\"https://irsa.utk.edu/reporting/fact-book/\" target=\"_blank\" rel=\"noopener\">UT Knoxville Fact Book</a></li><li><a href=\"https://tennesseeencyclopedia.net/?p=1832\" target=\"_blank\" rel=\"noopener\">Tennessee Encyclopedia: UT Health Science Center</a></li><li>Wikipedia articles on <a href=\"https://en.wikipedia.org/wiki/University_of_Tennessee_system\" target=\"_blank\" rel=\"noopener\">the UT System</a> and each campus</li></ul><p>Photos are from Wikimedia Commons and are credited under each image. Map data © OpenStreetMap contributors.</p><p><a href=\"text.html\">Read this story as plain text</a></p>"
+        },
+        "media": {"url": "", "credit": "", "caption": ""},
+        "location": {"line": false, "lat": 35.86, "lon": -86.35, "zoom": 7, "use_custom_marker": false}
+      }
+    ]
+  }
+}

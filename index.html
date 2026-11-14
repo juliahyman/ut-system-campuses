@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>UT System Campuses</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="An interactive story map of the five University of Tennessee System campuses, told in the order each became part of UT.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="UT System Campuses">
+<meta property="og:description" content="An interactive story map of the five University of Tennessee System campuses, from Knoxville in 1794 to UT Southern in 2021.">
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css">
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/fonts/font.default.css">
+<script src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
+<style>
+  :root { --ut-orange: #FF8200; --ut-smokey: #58595B; --bar-h: 48px; }
+  html, body { height: 100%; margin: 0; padding: 0; background: #fff; }
+  .topbar {
+    height: var(--bar-h); box-sizing: border-box; display: flex; align-items: center; gap: 16px;
+    padding: 0 16px; background: var(--ut-orange); color: #fff;
+    font: 600 16px/1.2 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .topbar h1 { font-size: 17px; margin: 0; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .topbar a { color: #fff; font-weight: 500; font-size: 14px; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+  .topbar a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+  #storymap-embed { width: 100%; height: calc(100% - var(--bar-h)); }
+  .storymap .vco-storyslider .source, .storymap p.source { font-size: 0.85em; opacity: 0.8; }
+  .error { padding: 24px 16px; font: 16px/1.5 system-ui, sans-serif; }
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <h1>UT System Campuses</h1>
+    <a href="text.html">Text version</a>
+    <a href="https://github.com/juliahyman/ut-system-campuses#readme">About</a>
+  </header>
+  <main id="storymap-embed" aria-label="Interactive story map of UT System campuses"></main>
+  <noscript><p class="error">This map needs JavaScript. <a href="text.html">Read the text version instead.</a></p></noscript>
+
+<script>
+  var storymap;
+  var params = new URLSearchParams(window.location.search);
+  var startSlide = parseInt(params.get('start_at_slide') || '0', 10) || 0;
+
+  fetch('storymap.json')
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) {
+      storymap = new KLStoryMap.StoryMap('storymap-embed', data, {
+        start_at_slide: startSlide,
+        line_color: '#FF8200',
+        line_color_inactive: '#58595B',
+        line_weight: 3,
+        line_opacity: 0.8,
+        calculate_zoom: false
+      });
+      window.addEventListener('resize', function () { storymap.updateDisplay(); });
+    })
+    .catch(function () {
+      document.getElementById('storymap-embed').innerHTML =
+        '<p class="error">The map could not be loaded. <a href="text.html">Read the text version instead.</a></p>';
+    });
+</script>
+</body>
+</html>
