@@ -23,6 +23,7 @@ This is a revised version of the [original Knight Lab draft](https://uploads.kni
 - **The same facts for every campus:** each slide gives the founding or joining year, the campus's role, its Fall 2025 enrollment from one source (the UT System release, where the campuses add up to 64,866), and its mascot. The original had statistics only for Knoxville.
 - **New slides:** "Beyond the five campuses" (UT Space Institute, UT Institute of Agriculture, Institute for Public Service) and "Sources & further reading."
 - **Better zoom:** campuses are shown at zoom 15 so you can see the campus itself, not just the city.
+- **Custom markers:** each kind of site has its own map pin (in [`markers/`](markers)): an orange pin for the four main campuses, an orange pin with a cross for the Health Science Center, a gray star for the statewide institutes, and a gray "i" for the sources slide.
 
 ### Media
 - Replaced the Giphy GIFs, a low-resolution Google thumbnail, and the embedded Wikipedia pages with **freely licensed Wikimedia Commons photos**. Each photo has a photographer and license credit.
@@ -34,13 +35,14 @@ This is a revised version of the [original Knight Lab draft](https://uploads.kni
 - Removed the Knight Lab analytics tag from the embed.
 
 ## Ideas for further expansion
-1. **Custom markers:** use a different icon for each kind of site (campus, health science, institute) by setting `use_custom_marker`.
-2. **Satellite locations:** UTHSC's sites in Knoxville, Chattanooga and Nashville; UTM's centers in West Tennessee; and UT Extension's 95 county offices.
-3. **Short audio or video clips:** for example, a student from each campus.
-4. **Comparison chart:** enrollment over time for each campus on a closing slide.
-5. **Primary sources:** historic photos from UT Libraries' digital collections, such as Blount College or Hall-Moody Institute.
+1. **Satellite locations:** UTHSC's sites in Knoxville, Chattanooga and Nashville; UTM's centers in West Tennessee; and UT Extension's 95 county offices.
+2. **Short audio or video clips:** for example, a student from each campus.
+3. **Comparison chart:** enrollment over time for each campus on a closing slide.
+4. **Primary sources:** historic photos from UT Libraries' digital collections, such as Blount College or Hall-Moody Institute.
 
 ## Editing
-All content is in [`storymap.json`](storymap.json). It uses StoryMapJS's standard format, so you can edit it by hand or paste it into a Knight Lab StoryMap. `index.html` loads StoryMapJS from Knight Lab's CDN and renders the JSON.
+All content is in [`storymap.json`](storymap.json). It uses StoryMapJS's standard format, so you can edit it by hand or paste it into a Knight Lab StoryMap. `index.html` loads StoryMapJS 0.9.6 from Knight Lab's CDN and renders the JSON.
+
+To change a slide's map pin, edit its `location` in `storymap.json`: `"use_custom_marker": true, "icon": "markers/<name>.svg", "iconSize": [36, 46]`.
 
 To preview locally, run `python -m http.server` in this folder and open http://localhost:8000. Opening the file directly won't work, because browsers block `fetch()` for `file://` pages.

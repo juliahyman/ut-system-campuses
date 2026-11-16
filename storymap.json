@@ -32,7 +32,7 @@
           "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Ayres_Hall,_University_of_Tennessee_at_Knoxville,_Fort_Sanders,_Knoxville,_TN.jpg\" target=\"_blank\" rel=\"noopener\">w_lemay / Wikimedia Commons</a>, CC BY-SA 2.0",
           "caption": "Ayres Hall on \"The Hill,\" the symbol of UT Knoxville"
         },
-        "location": {"line": true, "lat": 35.9573, "lon": -83.9262, "zoom": 15, "use_custom_marker": false}
+        "location": {"line": true, "lat": 35.9573, "lon": -83.9262, "zoom": 15, "use_custom_marker": true, "icon": "markers/campus.svg", "iconSize": [36, 46]}
       },
       {
         "date": "1911",
@@ -45,7 +45,7 @@
           "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Dunn_Dental_Building.jpg\" target=\"_blank\" rel=\"noopener\">Dclemens1971 / Wikimedia Commons</a>, CC BY 4.0",
           "caption": "The Dunn Dental Building, home of the UTHSC College of Dentistry"
         },
-        "location": {"line": true, "lat": 35.1408, "lon": -90.0300, "zoom": 15, "use_custom_marker": false}
+        "location": {"line": true, "lat": 35.1408, "lon": -90.0300, "zoom": 15, "use_custom_marker": true, "icon": "markers/health.svg", "iconSize": [36, 46]}
       },
       {
         "date": "1927",
@@ -58,7 +58,7 @@
           "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:UTM_admin_building.jpg\" target=\"_blank\" rel=\"noopener\">Benjamin Hunt / Wikimedia Commons</a>, public domain",
           "caption": "The administration building at UT Martin"
         },
-        "location": {"line": true, "lat": 36.3418, "lon": -88.8671, "zoom": 15, "use_custom_marker": false}
+        "location": {"line": true, "lat": 36.3418, "lon": -88.8671, "zoom": 15, "use_custom_marker": true, "icon": "markers/campus.svg", "iconSize": [36, 46]}
       },
       {
         "date": "1969",
@@ -71,7 +71,7 @@
           "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:The_University_of_Tennessee_at_Chattanooga.jpg\" target=\"_blank\" rel=\"noopener\">Harrison Keely / Wikimedia Commons</a>, CC BY 4.0",
           "caption": "The UT Chattanooga campus"
         },
-        "location": {"line": true, "lat": 35.0458, "lon": -85.2999, "zoom": 15, "use_custom_marker": false}
+        "location": {"line": true, "lat": 35.0458, "lon": -85.2999, "zoom": 15, "use_custom_marker": true, "icon": "markers/campus.svg", "iconSize": [36, 46]}
       },
       {
         "date": "2021",
@@ -84,7 +84,7 @@
           "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Martin_Methodist_College.JPG\" target=\"_blank\" rel=\"noopener\">Skye Marthaler / Wikimedia Commons</a>, CC BY-SA 3.0",
           "caption": "The campus in Pulaski when it was still Martin Methodist College"
         },
-        "location": {"line": true, "lat": 35.2002, "lon": -87.0364, "zoom": 15, "use_custom_marker": false}
+        "location": {"line": true, "lat": 35.2002, "lon": -87.0364, "zoom": 15, "use_custom_marker": true, "icon": "markers/campus.svg", "iconSize": [36, 46]}
       },
       {
         "date": "Statewide",
@@ -93,7 +93,7 @@
           "text": "<p>The UT System reaches well beyond its campuses:</p><ul><li><strong>UT Space Institute</strong> (shown here, near Tullahoma): a graduate research campus next to the wind tunnels and test facilities of Arnold Air Force Base. It is now part of UT Knoxville.</li><li><strong>UT Institute of Agriculture</strong>: research, the College of Veterinary Medicine, and UT Extension offices in every Tennessee county.</li><li><strong>Institute for Public Service</strong>: training and advice for city and county governments and businesses across the state.</li></ul>"
         },
         "media": {"url": "", "credit": "", "caption": ""},
-        "location": {"line": false, "lat": 35.3190, "lon": -86.1010, "zoom": 13, "use_custom_marker": false}
+        "location": {"line": false, "lat": 35.3190, "lon": -86.1010, "zoom": 13, "use_custom_marker": true, "icon": "markers/institute.svg", "iconSize": [36, 46]}
       },
       {
         "date": "",
@@ -102,7 +102,7 @@
           "text": "<ul><li><a href=\"https://tennessee.edu/news/2025/09/17/ut-reaches-record-enrollment-preparing-more-graduates-for-tennessee-jobs/\" target=\"_blank\" rel=\"noopener\">UT System: Fall 2025 record enrollment</a> (all enrollment figures)</li><li><a href=\"https://irsa.utk.edu/reporting/fact-book/\" target=\"_blank\" rel=\"noopener\">UT Knoxville Fact Book</a></li><li><a href=\"https://tennesseeencyclopedia.net/?p=1832\" target=\"_blank\" rel=\"noopener\">Tennessee Encyclopedia: UT Health Science Center</a></li><li>Wikipedia articles on <a href=\"https://en.wikipedia.org/wiki/University_of_Tennessee_system\" target=\"_blank\" rel=\"noopener\">the UT System</a> and each campus</li></ul><p>Photos are from Wikimedia Commons and are credited under each image. Map data © OpenStreetMap contributors.</p><p><a href=\"text.html\">Read this story as plain text</a></p>"
         },
         "media": {"url": "", "credit": "", "caption": ""},
-        "location": {"line": false, "lat": 35.86, "lon": -86.35, "zoom": 7, "use_custom_marker": false}
+        "location": {"line": false, "lat": 35.86, "lon": -86.35, "zoom": 7, "use_custom_marker": true, "icon": "markers/info.svg", "iconSize": [36, 46]}
       }
     ]
   }
