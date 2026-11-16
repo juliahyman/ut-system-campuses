@@ -20,14 +20,16 @@ This is a revised version of the [original Knight Lab draft](https://uploads.kni
 
 ### Story and structure
 - **A clear story:** slides now follow the order each campus *joined UT* (1794 → 1911 → 1927 → 1969 → 2021). Each slide shows that year in the date field, so the orange path traces how the system grew.
-- **The same facts for every campus:** each slide gives the founding or joining year, the campus's role, its Fall 2025 enrollment from one source (the UT System release, where the campuses add up to 64,866), and its mascot. The original had statistics only for Knoxville.
+- **The same facts for every campus, in the same order:** Founded → Joined UT → Role → Fall 2025 → Mascot. Enrollment comes from one source (the UT System release, where the campuses add up to 64,866). The original had statistics only for Knoxville.
 - **New slides:** "Beyond the five campuses" (UT Space Institute, UT Institute of Agriculture, Institute for Public Service) and "Sources & further reading."
 - **Better zoom:** campuses are shown at zoom 15 so you can see the campus itself, not just the city.
-- **Custom markers:** each kind of site has its own map pin (in [`markers/`](markers)): an orange pin for the four main campuses, an orange pin with a cross for the Health Science Center, a gray star for the statewide institutes, and a gray "i" for the sources slide.
+- **Custom markers:** each kind of site has its own map pin (in [`markers/`](markers)): an orange pin for the four main campuses, an orange pin with a cross for the Health Science Center, and a gray star for the statewide institutes.
+- **A closing overview:** the "Sources" slide zooms back out to show the whole system, instead of pinning an arbitrary spot on the map.
 
 ### Media
 - Replaced the Giphy GIFs, a low-resolution Google thumbnail, and the embedded Wikipedia pages with **freely licensed Wikimedia Commons photos**. Each photo has a photographer and license credit.
 - Every image has a caption that describes it.
+- "Beyond the five campuses" shows the 16-foot supersonic wind tunnel at Arnold Air Force Base (1960, U.S. Air Force, public domain).
 
 ### Accessibility and publishing
 - Added a **text version** (`text.html`) built from the same `storymap.json`, so it never gets out of sync with the map. It works with screen readers and on slow connections.
